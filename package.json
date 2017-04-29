@@ -1,0 +1,29 @@
+{
+  "name": "simple-weather-service",
+  "version": "1.0.0",
+  "description": "A simple weather service",
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^0.16.1",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ditikos/SimpleWeatherService.git"
+  },
+  "keywords": [
+    "weather-service",
+    "api.ai"
+  ],
+  "author": "Panagiotis Chalatsakos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ditikos/SimpleWeatherService/issues"
+  },
+  "homepage": "https://github.com/ditikos/SimpleWeatherService#readme"
+}
