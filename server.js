@@ -1,7 +1,8 @@
 //
-//
-//
-//
+//  Open university of Cyprus
+//  Information and Communication Systems
+//  Panagiotis Chalatsakos (c) 2017
+//  Student Id: 11300837
 //
 var express = require('express');
 var bodyParser = require('body-parser');
@@ -54,7 +55,7 @@ app.post('/webhook', (req, res) => {
 });
 
 app.listen(9000, () => {
-    console.log(`Started on Port 3000.`);
+    console.log(`Started on Port 9000.`);
 });
 
 module.exports = { app };
